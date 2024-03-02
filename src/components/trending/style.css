@@ -1,0 +1,47 @@
+.trending {
+  margin-top: 50px;
+}
+.trending h1 {
+  font-size: 50px;
+  margin-top: 0;
+}
+@media only screen and (max-width: 600px) {
+  .trending h1 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .trending {
+    position: relative;
+    height: 60vh !important;
+    margin-bottom: 10rem;
+    width: 100%;
+  }
+  .trending .coverImage img {
+    width: 100vw;
+    height: 100vh !important;
+  }
+  .trending .content {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .trending .row {
+    width: 100%;
+  }
+  .trending .palyButton {
+    display: none;
+  }
+  .trending >p{
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-right: 20px;
+  }
+  .rating.flex{
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .trending >label {
+    margin:  10px;
+    font-size: 10px;
+  }
+}
